@@ -15,6 +15,7 @@
 		26DE149B1EC03FC600974393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DE14991EC03FC600974393 /* LaunchScreen.storyboard */; };
 		26DE14A61EC03FC600974393 /* LocalDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DE14A51EC03FC600974393 /* LocalDemoTests.m */; };
 		26DE14B11EC03FC600974393 /* LocalDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DE14B01EC03FC600974393 /* LocalDemoUITests.m */; };
+		26DE14C01EC0412000974393 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DE14BF1EC0412000974393 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		26DE14AC1EC03FC600974393 /* LocalDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DE14B01EC03FC600974393 /* LocalDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalDemoUITests.m; sourceTree = "<group>"; };
 		26DE14B21EC03FC600974393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DE14BE1EC0412000974393 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		26DE14BF1EC0412000974393 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				26DE14991EC03FC600974393 /* LaunchScreen.storyboard */,
 				26DE149C1EC03FC600974393 /* Info.plist */,
 				26DE148B1EC03FC600974393 /* Supporting Files */,
+				26DE14BE1EC0412000974393 /* Person.h */,
+				26DE14BF1EC0412000974393 /* Person.m */,
 			);
 			path = LocalDemo;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			files = (
 				26DE14931EC03FC600974393 /* ViewController.m in Sources */,
 				26DE14901EC03FC600974393 /* AppDelegate.m in Sources */,
+				26DE14C01EC0412000974393 /* Person.m in Sources */,
 				26DE148D1EC03FC600974393 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
